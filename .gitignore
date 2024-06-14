@@ -1,0 +1,34 @@
+# Ignore all large files (you can define your large file criteria using git-lfs or similar tools)
+# If using git-lfs, you can configure it like this in your terminal (not in the .gitignore):
+# git lfs track "*.mp4"
+# git add .gitattributes
+
+# Ignore specific file
+sample.mp4
+
+# Add any other patterns to ignore here, for example:
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Compiled files
+*.class
+*.o
+*.so
+
+# IDE or Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
